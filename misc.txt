@@ -1,0 +1,7 @@
+1. In Terminal, install json-server : npm i json-server -g
+2. Create db.json file in the main directory
+3. Enter some data in json format -- { "key" : "value" } 
+4. In Terminal, run : json-server --watch db.json
+5. In Terminal, run : json-server --watch db.json --port 8080 , to change the port of db.json. Usually backends' port is 8080.
+
+
